@@ -20,19 +20,18 @@ img {
 }
 
 .img-web{
-		display: block;
-	}
+	display: block;
+}
 
 
 
-@media(max-width: 980px){
+@media(max-width: 680px){
 	img {
 		width: 100%;
 	}
 
 	.img-mobile{
 		display: block;
-
 	}
 
 	.img-web{
