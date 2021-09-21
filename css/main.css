@@ -14,3 +14,28 @@
 img {
 	width: 100%;
 }
+
+.img-mobile {
+	display: none;
+}
+
+.img-web{
+		display: block;
+	}
+
+
+
+@media(max-width: 980px){
+	img {
+		width: 100%;
+	}
+
+	.img-mobile{
+		display: block;
+
+	}
+
+	.img-web{
+		display: none;
+	}
+}
